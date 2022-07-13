@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+body {
+    background-color: #f3f5f7;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.hea {
+    height: 100px;
+}
+.logo {
+    float: left;
+    height: 42px;
+    margin: 30px 0;
+}
+.nva {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin: 30px 30px 0 57px;
+}
+.nva ul li {
+    float: left;
+    padding: 0 23px;
+}
+.nva ul li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #050505;
+}
+.nva ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin: 30px 30px 94px 0;
+    line-height: 42px;
+}
+.search input {
+    float: left;
+    color: #bfbfbf;
+    width: 360px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    text-indent: 15px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-image: url(素材/images/search.png);
+    border: none;
+}
+.logn {
+    float: right;
+    height: 42px;
+    margin: 30px 30px 0 0;
+}
+.logn img {
+    float: left;
+    
+}
+.logn p {
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666666;
+}
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+.back {
+    position: relative;
+    background: url(素材/轮播.png) no-repeat top center;
+    height: 420px;
+}
+.dao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 190px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.dao ul li {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.dao ul li a {
+  font-size: 14px;
+  color: #ffffff;
+}
+.dao ul li a span {
+    float: right;
+}
+.dao ul li a:hover {
+    color: #00b4ff;
+}
+.course {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 230px;
+    height: 300px;
+    background-color: white;
+}
+.coursetou {
+    height: 50px;
+    background-color: #9bceea;
+}
+.coursetou p {
+    text-indent: 66px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.coursebody {
+    padding: 0 20px;
+}
+.coursebody ul li {
+    border-bottom: 1px solid #efefef;
+    padding: 15px 0;
+}
+.coursebody ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.coursebody ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.courselink {
+    margin: 5px 0 15px 17px;
+    border: 1px solid #00a4ff;
+    height: 38px;
+    width: 200px;
+    font-size: 16px;
+    line-height: 40px;
+    text-indent: 63px;
+    font-weight: 700;
+}
+.courselink a {
+    color: #00a4ff;
+}
+.tuijian {
+    background-color: #ffffff;
+    margin-top: 10px;
+    height: 60px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.tuijian p {
+    padding-left: 35px;
+}
+.tuitext {
+    float: left;
+}
+.tuitext p {
+    line-height: 60px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.tuilian {
+    float: left;
+    margin-left: 35px;
+}
+.tuilian ul li {
+    float: left;
+    margin-top: 22px;
+    padding: 0 40px;
+    border-left: 2px solid #bfbfbf;
+}
+.tuilian ul li a {
+    font-size: 16px;
+    color: #050505;
+}
+.tuixiu {
+    float: right;
+    line-height: 60px;
+    font-size: 14px;
+}
+.tuixiu a {
+    padding-right: 30px;
+    color: #00a4ff;
+}
+.tuijian2 {
+    margin-top: 35px;
+    height: 42px;
+}
+.jin {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.quan {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.tuijianke {
+    padding-left: 12px;
+    width: 1215px;
+    height: 555px;
+}
+.tuijianke ul li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 270px;
+    width: 228px;
+    background-color: #ffffff;
+}
+.tuijianke ul li em img {
+    position: absolute;
+    right: -4px;
+    top: 10px;
+}
+.tuijianke ul li div img {
+    float: left;
+    width: 100%;
+    height: 155px;
+}
+.tuijianke ul li h4 {
+    float: left;
+    padding: 25px 20px 25px 25px;
+    font-size: 14px;
+}
+.info {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+.info span {
+    color: #ff7c2d;
+    padding-left: 25px;
+}
+.end {
+    margin-top: 40px;
+    height: 415px;
+    background-color: #ffffff
+}
+.endxue {
+    float: left;
+    margin-top: 32px;
+}
+.endxue p {
+    margin-top: 25px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #666666;
+}
+.endxue div {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #00a4ff;
+}
+.endxue div a {
+    padding-left: 27px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #00a4ff;
+}
+.endinfo {
+    float: right;
+    margin-top: 32px;
+    padding-right: 32px;
+}
+.endinfo ul {
+    float: right;
+}
+.endinfo ul {
+    margin-left: 150px;
+}
+.endinfo ul li h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+}
+.endinfo ul li a {
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 12px;
+}
+.endinfo ul li a:hover {
+    color: #00a4ff;
+}
